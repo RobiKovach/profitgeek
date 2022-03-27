@@ -1574,6 +1574,12 @@ body {
     right: 40px !important;
   }
 }
+@media only screen and (max-width: 425px) {
+  .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: 0px !important;
+  }
+}
 
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
@@ -1584,6 +1590,12 @@ body {
   .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
     left: 40px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: 10px !important;
   }
 }
 
