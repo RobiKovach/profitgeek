@@ -149,7 +149,7 @@ h6 {
 Например header__container, main__container и т.д.
 Снипет (HTML): cnt
 */
-[class*=__container] {
+[class*=__container]:not(.fancybox__container) {
   max-width: 69.375rem;
   box-sizing: content-box;
   margin: 0 auto;
